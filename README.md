@@ -1,2 +1,43 @@
-# index.html
-Website project
+<!DOCTYPE html>
+<html>
+<head>
+ <title>ADITYAZY OFFICIAL</title>
+ <style>
+  body {
+   background-color: #000; /*warna latar belakang hitam*/
+   font-family: Arial, sans-serif;
+   text-align: center;
+  }
+  #judul {
+   font-size: 50px;
+   font-weight: bold;
+   animation: warna-ganti 5s infinite, zoom 5s infinite;
+  }
+  #kill {
+   font-size: 30px;
+   font-weight: bold;
+   color: #FF0000; /*merah*/
+  }
+  @keyframes warna-ganti {
+   0% { color: #FF0000; } /*merah*/
+   20% { color: #FFFF00; } /*kuning*/
+   40% { color: #00FF00; } /*hijau*/
+   60% { color: #0000FF; } /*biru*/
+   80% { color: #FF00FF; } /*magenta*/
+   100% { color: #FF0000; } /*merah*/
+  }
+  @keyframes zoom {
+   0% { transform: scale(1); }
+   50% { transform: scale(1.2); }
+   100% { transform: scale(1); }
+  }
+ </style>
+</head>
+<body>
+ <h1 id="judul">ADITYAZY OFFICIAL</h1>
+ <p id="kill">Adityazy Kill You</p>
+ <audio autoplay loop>
+  <source src="https://docs.google.com/uc?export=download&id=1QWQzLjw9xWzLjwzLjw9xWzL1QWQzL/afdhan-pernah-sakit.mp3" type="audio/mp3">
+ </audio>
+</body>
+</html>
